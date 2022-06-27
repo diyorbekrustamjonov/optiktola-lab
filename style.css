@@ -11,8 +11,7 @@
   
   body {
 	font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-	color: #42ff00;
-	background: url("../images/bg.jpg");
+	color: #000000;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -76,8 +75,8 @@
 	}
   }
   .responsive-table thead th {
-	background-color: #42ff00;
-	border: 1px solid #42ff00;
+	background-color: #000000;
+	border: 1px solid #000000;
 	font-weight: normal;
 	text-align: center;
 	color: white;
@@ -156,7 +155,7 @@
   }
   .responsive-table tbody tr {
 	margin-bottom: 1em;
-	border: 2px solid #42ff00;
+	border: 2px solid #000000;
   }
   @media (min-width: 48em) {
 	.responsive-table tbody tr {
@@ -173,7 +172,7 @@
 	}
   }
   .responsive-table tbody th[scope="row"] {
-	background-color: #42ff00;
+	background-color: #000000;
 	color: white;
   }
   @media (min-width: 48em) {
@@ -234,7 +233,7 @@
 	margin-top: 20px;
 }
 .form form .form-value label {
-	color: #42ff00;
+	color: #0a0a0a;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
@@ -244,8 +243,8 @@
 	width: 300px;
 	height: 30px;
 	border-radius: 5px;
-	border: 1px solid #42ff00;
-	color: #42ff00;
+	border: 1px solid #000000;
+	color: #000000;
 	border-radius:0;
 	padding-left: 10px;
 	font-size: 16px;
@@ -256,8 +255,8 @@
 	width: 200px;
 	height: 25px;
 	border-radius: 5px;
-	border: 1px solid #42ff00;
-	color: #42ff00;
+	border: 1px solid #000000;
+	color: #000000;
 	border-radius:0;
 	padding-left: 10px;
 	font-size: 16px;
@@ -274,5 +273,11 @@ footer div{
 
 a {
 	text-decoration: none;
-	color: #42ff00;
+	color: #000000;
+}
+
+.inp{
+	background-color: transparent;
+	font-size: .9em;
+	text-align: center;
 }
